@@ -1,0 +1,29 @@
+.lookupDiv {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.textInputDiv {
+    flex: 9; 
+    margin-left: 1vw;
+}
+
+.textInputDiv input {
+    width:100%; 
+}
+
+.buttonDiv {
+    text-align: center;
+    flex: 1;
+}
+
+.divTitle {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 10vh;
+    line-height: 10vh;
+    color: rgb(0, 120, 160);
+}
+

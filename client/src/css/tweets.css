@@ -1,0 +1,33 @@
+.tweetBox {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    background: white;
+    box-shadow: 2px 2px 2px gray;
+    border: solid 1px lightblue;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0.5em;
+    font-size: 0.75rem;
+}
+
+.tweetProp {
+    /* border: solid 1px lightgray; */
+    display: flex;
+}
+
+.tweetLabel {
+    flex: 1;
+    font-weight: bold;
+}
+
+.tweetValue {
+    flex: 9;
+
+}
+
+.tweetLike {
+    flex: 1;
+    text-align: right;
+    padding-right: 1em;
+}

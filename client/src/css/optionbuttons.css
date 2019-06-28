@@ -1,0 +1,22 @@
+.optContainer {
+    display: flex;
+    width: 100%;
+    justify-items: flex-start;
+    background: blue;
+}
+
+.optItem {
+    text-decoration:  none;
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background: lightblue;
+    line-height: 8vh;
+    height: 8vh;
+}
+
+.optItem:hover {
+    text-shadow: 2px 2px 2px gray;
+    color: white;
+}
